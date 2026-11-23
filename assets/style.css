@@ -343,6 +343,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .legal .toc ol { margin: 6px 0 0; padding-left: 22px; }
 .legal .toc a { color: #e3d6ff; }
+.legal .toc ol ol { margin: 4px 0 6px; list-style: lower-alpha; }
+.legal h3 { font-size: 19px; margin: 28px 0 8px; color: #f1ebff; }
+.legal .notice {
+  background: var(--bg-2); border: 1px solid var(--line); border-left: 4px solid var(--brand);
+  border-radius: 12px; padding: 16px 20px; margin: 0 0 24px;
+}
+.legal .notice p { margin: 0; color: #f1ebff; }
+.legal .note { color: var(--muted); font-size: 15px; }
 
 /* 404 */
 .notfound { min-height: 70vh; display: grid; place-items: center; text-align: center; padding: 64px 0; }
