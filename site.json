@@ -6,7 +6,7 @@
   "languages": [
     "en"
   ],
-  "companyName": "Mailaima Ai",
+  "companyName": "STC AI",
   "companyAddress": "",
   "contactEmail": "ismailamahama2020@gmail.com",
   "dataCollected": "",
@@ -24,8 +24,8 @@
   "packageName": null,
   "store": "Google Play",
   "platform": "android",
-  "siteUrl": null,
-  "hosting": null,
+  "siteUrl": "https://anime-aistoreis.vercel.app",
+  "hosting": "vercel",
   "appAdsTxt": [
     "# (chưa cấu hình: để file có đúng dòng chú thích này)"
   ],
