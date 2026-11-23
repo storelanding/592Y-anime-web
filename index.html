@@ -9,10 +9,12 @@
   <link rel="icon" type="image/png" href="assets/img/app-icon.png">
   <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
   <link rel="apple-touch-icon" href="assets/img/app-icon.png">
+  <link rel="canonical" href="https://anime-aistoreis.vercel.app/">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anime-aistoreis.vercel.app/">
   <meta property="og:title" content="Anime AI — Anime Ai Maker | Android App on Google Play">
   <meta property="og:description" content="Turn selfies into anime photos and create your own anime characters with AI. An Android app on Google Play.">
-  <meta property="og:image" content="assets/img/app-icon.png">
+  <meta property="og:image" content="https://anime-aistoreis.vercel.app/assets/img/app-icon.png">
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="assets/style.css">
   <script type="application/ld+json">
@@ -25,7 +27,7 @@
     "applicationCategory": "MultimediaApplication",
     "description": "Anime AI turns selfies into anime photos. Transform your photos with AI, create unique anime characters, chat with them and turn videos into anime.",
     "image": "assets/img/app-icon.png",
-    "author": { "@type": "Organization", "name": "Mailaima Ai", "email": "ismailamahama2020@gmail.com" }
+    "author": { "@type": "Organization", "name": "STC AI", "email": "ismailamahama2020@gmail.com" }
   }
   </script>
 </head>
@@ -198,35 +200,110 @@
       </div>
     </section>
 
-    <!-- Gallery -->
+    <!-- Gallery: book gallery (CSS-only page flip, radio-driven; arrow keys switch chapters) -->
     <section class="section alt" id="screens">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Screenshots</span>
+          <span class="eyebrow">The Anime AI storybook</span>
           <h2>See Anime AI in action</h2>
-          <p>Swipe through the app's main screens.</p>
+          <p>Turn the pages: every chapter is one screen of the Android app.</p>
         </div>
-        <div class="gallery" tabindex="0" aria-label="Anime AI screenshots">
-          <figure>
-            <div class="shot"><img src="assets/img/screenshot-01.png" alt="Create unique anime characters" width="1080" height="1920" loading="lazy"></div>
-            <figcaption>Create characters</figcaption>
-          </figure>
-          <figure>
-            <div class="shot"><img src="assets/img/screenshot-02.png" alt="Chat with your characters" width="1080" height="1920" loading="lazy"></div>
-            <figcaption>Chat</figcaption>
-          </figure>
-          <figure>
-            <div class="shot"><img src="assets/img/screenshot-03.png" alt="Turn your videos into anime" width="1080" height="1920" loading="lazy"></div>
-            <figcaption>Video to anime</figcaption>
-          </figure>
-          <figure>
-            <div class="shot"><img src="assets/img/screenshot-04.png" alt="Craft your anime stories" width="1080" height="1920" loading="lazy"></div>
-            <figcaption>Anime stories</figcaption>
-          </figure>
-          <figure>
-            <div class="shot"><img src="assets/img/screenshot-05.png" alt="Transform your photo with AI" width="1080" height="1920" loading="lazy"></div>
-            <figcaption>Photo to anime</figcaption>
-          </figure>
+
+        <div class="bookshelf">
+          <input class="book-radio" type="radio" name="book-page" id="bk-1" checked aria-label="Chapter 1: Create characters">
+          <input class="book-radio" type="radio" name="book-page" id="bk-2" aria-label="Chapter 2: Chat">
+          <input class="book-radio" type="radio" name="book-page" id="bk-3" aria-label="Chapter 3: Video to anime">
+          <input class="book-radio" type="radio" name="book-page" id="bk-4" aria-label="Chapter 4: Anime stories">
+          <input class="book-radio" type="radio" name="book-page" id="bk-5" aria-label="Chapter 5: Photo to anime">
+
+          <div class="book" role="group" aria-label="Anime AI screenshot book">
+            <article class="spread spread-1">
+              <div class="page page-left">
+                <div class="shot"><img src="assets/img/screenshot-01.png" alt="Create Character screen in Anime AI with AI Generate and From Photo tabs, character styles, gender, eye and hair style choices" width="1080" height="1920" loading="lazy"></div>
+              </div>
+              <div class="page page-right">
+                <span class="chapter">Chapter 01</span>
+                <h3>Create characters</h3>
+                <p>Generate a character with AI or start from one of your photos, then choose the style, gender, eye colour and hair style.</p>
+                <div class="page-nav">
+                  <span class="page-no">1 / 5</span>
+                  <label for="bk-2" class="turn next">Next page <span aria-hidden="true">→</span></label>
+                </div>
+              </div>
+            </article>
+
+            <article class="spread spread-2">
+              <div class="page page-left">
+                <div class="shot"><img src="assets/img/screenshot-02.png" alt="Chat screen in Anime AI showing a conversation with an anime character named Luna" width="1080" height="1920" loading="lazy"></div>
+              </div>
+              <div class="page page-right">
+                <span class="chapter">Chapter 02</span>
+                <h3>Chat</h3>
+                <p>Open a chat and talk with your anime characters. Type a message or use the microphone button.</p>
+                <div class="page-nav">
+                  <label for="bk-1" class="turn prev"><span aria-hidden="true">←</span> Back</label>
+                  <span class="page-no">2 / 5</span>
+                  <label for="bk-3" class="turn next">Next page <span aria-hidden="true">→</span></label>
+                </div>
+              </div>
+            </article>
+
+            <article class="spread spread-3">
+              <div class="page page-left">
+                <div class="shot"><img src="assets/img/screenshot-03.png" alt="Anime Video Result screen in Anime AI with style variations and Save, Share and Regenerate buttons" width="1080" height="1920" loading="lazy"></div>
+              </div>
+              <div class="page page-right">
+                <span class="chapter">Chapter 03</span>
+                <h3>Video to anime</h3>
+                <p>Turn a clip into an anime-style video, browse style variations, then save, share or regenerate with one tap.</p>
+                <div class="page-nav">
+                  <label for="bk-2" class="turn prev"><span aria-hidden="true">←</span> Back</label>
+                  <span class="page-no">3 / 5</span>
+                  <label for="bk-4" class="turn next">Next page <span aria-hidden="true">→</span></label>
+                </div>
+              </div>
+            </article>
+
+            <article class="spread spread-4">
+              <div class="page page-left">
+                <div class="shot"><img src="assets/img/screenshot-04.png" alt="Anime-style illustration of three characters above an open glowing book, representing anime stories in Anime AI" width="1080" height="1920" loading="lazy"></div>
+              </div>
+              <div class="page page-right">
+                <span class="chapter">Chapter 04</span>
+                <h3>Anime stories</h3>
+                <p>Put your characters into their own anime world and craft stories around the cast you create.</p>
+                <div class="page-nav">
+                  <label for="bk-3" class="turn prev"><span aria-hidden="true">←</span> Back</label>
+                  <span class="page-no">4 / 5</span>
+                  <label for="bk-5" class="turn next">Next page <span aria-hidden="true">→</span></label>
+                </div>
+              </div>
+            </article>
+
+            <article class="spread spread-5">
+              <div class="page page-left">
+                <div class="shot"><img src="assets/img/screenshot-05.png" alt="Anime AI turning a portrait photo into an anime illustration, with Upload Photo, Choose Template, AI Prompt and Custom Ratio options" width="1080" height="1920" loading="lazy"></div>
+              </div>
+              <div class="page page-right">
+                <span class="chapter">Chapter 05</span>
+                <h3>Photo to anime</h3>
+                <p>Upload a selfie, choose a template, describe extra details with an AI prompt and get your anime photo in seconds.</p>
+                <div class="page-nav">
+                  <label for="bk-4" class="turn prev"><span aria-hidden="true">←</span> Back</label>
+                  <span class="page-no">5 / 5</span>
+                  <label for="bk-1" class="turn next">Start again <span aria-hidden="true">↺</span></label>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <nav class="book-tabs" aria-label="Book chapters">
+            <label for="bk-1"><img src="assets/img/screenshot-01.png" alt="" width="1080" height="1920" loading="lazy"><span>Create</span></label>
+            <label for="bk-2"><img src="assets/img/screenshot-02.png" alt="" width="1080" height="1920" loading="lazy"><span>Chat</span></label>
+            <label for="bk-3"><img src="assets/img/screenshot-03.png" alt="" width="1080" height="1920" loading="lazy"><span>Video</span></label>
+            <label for="bk-4"><img src="assets/img/screenshot-04.png" alt="" width="1080" height="1920" loading="lazy"><span>Stories</span></label>
+            <label for="bk-5"><img src="assets/img/screenshot-05.png" alt="" width="1080" height="1920" loading="lazy"><span>Photo</span></label>
+          </nav>
         </div>
       </div>
     </section>
@@ -361,7 +438,7 @@
       <div class="container">
         <div class="contact-box">
           <h2>Contact</h2>
-          <p>Questions, feedback or support requests? Anime AI is developed by Mailaima Ai.</p>
+          <p>Questions, feedback or support requests? Anime AI is developed by STC AI.</p>
           <a href="mailto:ismailamahama2020@gmail.com">ismailamahama2020@gmail.com</a>
         </div>
       </div>
@@ -375,7 +452,7 @@
           <img src="assets/img/app-icon.png" alt="" width="34" height="34" loading="lazy">
           <span>Anime AI</span>
         </div>
-        <p style="margin-top:10px">&copy; 2026 Mailaima Ai &middot; <a href="mailto:ismailamahama2020@gmail.com">ismailamahama2020@gmail.com</a></p>
+        <p style="margin-top:10px">&copy; 2026 STC AI &middot; <a href="mailto:ismailamahama2020@gmail.com">ismailamahama2020@gmail.com</a></p>
       </div>
       <nav class="footer-links" aria-label="Footer">
         <a href="index.html">Home</a>
