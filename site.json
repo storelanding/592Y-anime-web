@@ -1,0 +1,40 @@
+{
+  "appName": "Anime AI",
+  "tagline": "Anime Ai Maker",
+  "description": "AI Anime Filter - Anime AI turns selfies into anime photo. An amazing anime face changer to transform yourself into an anime character.\n🎨 Immerse yourself into the captivating world of anime where AI Anime Filter makes your dream comes true, turn you into your favorite comic or anime character. Personalize your appearance by describing details that you want to add to your anime photo.\n✨ AI Anime Filter - Anime AI helps you create a unique anime avatar based on your photos. Simply upload your image and this anime face changer will turn you into anime character in seconds. Whether it's your friend, your pet or an object, in just one click and it will turn your photo into anime stylized.\n🎎 Creates anime photo with AI Anime Filter. Select a picture and use anime face changer to anime yourself in seconds. You can try it with your friends and surprise them with an anime version of themselves.\n💫 Add fun to your photo or gives your avatar a new breath of fresh air by anime yourself with AI Anime Filter - Anime AI. Create cute anime photo and see you in the form of an anime character. Save your photo to gallery or share it with your friends on social media.\n🎉 AI Anime Filter - Anime AI is an ultimate anime face changer powered by AI that allows you to become a part of your favorite anime or cartoon by transforming you into an anime character. This is the perfect anime AI filter and anime avatar creator for you and your friends.\n⭐️ Anime yourself with AI Anime Filter, creates beautiful anime photo and stunning anime avatar. Bring more fun to your anime photo using this amazing AI Anime Filter. A perfect AI filter for epic anime transformation.",
+  "features": [],
+  "languages": [
+    "en"
+  ],
+  "companyName": "Mailaima Ai",
+  "companyAddress": "",
+  "contactEmail": "ismailamahama2020@gmail.com",
+  "dataCollected": "",
+  "thirdParties": [
+    "Admob-Firebas-Ạdjus"
+  ],
+  "noThirdParties": false,
+  "childrenDirected": false,
+  "hasSubscription": true,
+  "effectiveDate": "",
+  "accentColor": "",
+  "figmaUrl": "",
+  "extraNotes": "",
+  "storeUrl": null,
+  "packageName": null,
+  "store": "Google Play",
+  "platform": "android",
+  "siteUrl": null,
+  "hosting": null,
+  "appAdsTxt": [
+    "# (chưa cấu hình: để file có đúng dòng chú thích này)"
+  ],
+  "images": [
+    { "file": "assets/img/app-icon.png", "source": "pm-upload", "role": "app icon (favicon, header, hero, Open Graph)" },
+    { "file": "assets/img/screenshot-01.png", "source": "pm-upload", "role": "hero + feature: Create unique anime characters" },
+    { "file": "assets/img/screenshot-02.png", "source": "pm-upload", "role": "feature: Chat with your characters" },
+    { "file": "assets/img/screenshot-03.png", "source": "pm-upload", "role": "feature: Turn your videos into anime" },
+    { "file": "assets/img/screenshot-04.png", "source": "pm-upload", "role": "feature: Craft your anime stories" },
+    { "file": "assets/img/screenshot-05.png", "source": "pm-upload", "role": "hero (back) + feature: Transform your photo with AI" }
+  ]
+}
