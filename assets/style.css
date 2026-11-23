@@ -248,6 +248,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .legal .meta { color: var(--muted); margin: 0 0 32px; }
 .legal h2 { font-size: 23px; margin: 40px 0 10px; }
 .legal p, .legal li { color: #ddd5f7; }
+.legal h3 { font-size: 18px; margin: 24px 0 6px; }
+.legal .notice { padding: 16px 18px; border-radius: 14px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); }
 .legal ul { padding-left: 22px; }
 .legal li { margin-bottom: 8px; }
 .legal .toc {
